@@ -18,7 +18,9 @@ public class CardTrickICE1 {
     {
         Scanner sc = new Scanner(System.in);
         Card[] magicHand = new Card[7];     //Array of object
-        
+        Card luckyCard = new Card();    //created luckyCard object
+        luckyCard.setValue(6);      //set the value of luckCard
+        luckyCard.setSuits("diamonds");     //set the suits for luckyCard
         
         //This for loop is used to generate 7 random cards.
         for( int i=0;i<magicHand.length;i++)
