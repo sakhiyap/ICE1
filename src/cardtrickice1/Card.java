@@ -8,7 +8,7 @@ package cardtrickice1;
 /** define card value and suits
  * 
  *
- * @author sivagamasrinivasan
+ * @author Pratik Rajanikant Sakhiya
  */
 public class Card 
 {
@@ -44,8 +44,17 @@ public class Card
     public void setSuits(String suits) {
         this.suits = suits;
     }
-   //number
     
-    //method for suits
+    //method to generate the Random Value for 7 cards
+    public static int RandomValue()
+    {
+        return  (int) ((Math.random()*13)+1);
+    }
+    //method to generate the Random Suits for 7 cards 
+    public static String RandomSuit()
+    {
+       int a = (int)(Math.random()*4);
+       return SUITS[a];
+    }
     
 }
