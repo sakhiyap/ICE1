@@ -5,7 +5,7 @@ package cardtrickice1;
 
 /** define card value and suits
  * 
- *
+ *Hello 
  * @author Pratik Rajanikant Sakhiya
  */
 public class Card 
